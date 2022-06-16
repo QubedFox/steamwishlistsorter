@@ -4,7 +4,7 @@ function fetchWishlist(profileURL){
 
     let url = urlPrefix + profileURL.slice(27, profileURL.length) + urlSuffix;
 
-    fetch(url)
+    fetch(url, {mode:'no-cors'})
         .then(response => JSON.stringify(response))
         .then(data => console.log(data))
         .catch(error => console.log(error));
