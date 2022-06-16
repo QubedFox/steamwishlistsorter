@@ -1,4 +1,3 @@
-
 function fetchWishlist(profileURL){
     const urlPrefix = 'https://store.steampowered.com/wishlist/';
     const urlSuffix = 'wishlistdata/';
