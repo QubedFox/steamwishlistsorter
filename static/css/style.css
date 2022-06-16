@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #F5E4DD;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #F5E4DD;
+}
+body {
+    background-color: #1B2838;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(5px);
+}
